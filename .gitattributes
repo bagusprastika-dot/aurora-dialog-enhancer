@@ -1,0 +1,9 @@
+# See https://github.com/github/linguist
+# Configuration for git attributes
+# Text file normalization
+node_modules/* linguist-vendored
+dist/* linguist-vendored
+docs/** linguist-vendored
+src/** linguist-detectable
+docs/* linguist-vendored
+*.ts linguist-detectable
